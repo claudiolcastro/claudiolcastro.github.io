@@ -1,0 +1,227 @@
+#img-header{
+	background: url('../images/code-bg1.jpg') no-repeat center center;
+	width: 100%;
+	height: 100vh;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   @include blur-images;
+}
+
+#img-perfil{
+	width: 25%;
+	height: auto;
+	margin-top:-45%;
+	margin-left: 35.5%;
+	position: absolute;
+
+	@media #{$mq-mobile1} {
+	    width: 60%;
+		height: auto; 
+		margin-top:-120%;
+	    margin-left: 20%;
+    }
+
+    @media #{$mq-mobile2} {
+        width: 60%;
+		height: auto;
+		margin-top:-120%;
+	    margin-left: 20%;
+    }
+
+    @media #{$mq-mobile3} {
+        width: 60%;
+		height: auto;
+		margin-top:-120%;
+	    margin-left: 20%;
+    }
+}
+
+#nome{
+	font-size: 3em;
+	font-family: 'Lato', sans-serif;
+	margin-top:-20%;
+	margin-left: 33%;
+	position: absolute;
+	color: white;
+
+	@media #{$mq-mobile1} {
+		font-size: 2em;
+		font-family: 'Lato', sans-serif;
+		margin-top:-55%;
+		margin-left: 10%;
+		position: absolute;
+		color: white;
+    }
+
+    @media #{$mq-mobile2} {
+        font-size: 2em;
+		font-family: 'Lato', sans-serif;
+		margin-top:-55%;
+		margin-left: 10%;
+		position: absolute;
+		color: white;
+    }
+
+    @media #{$mq-mobile3} {
+        font-size: 2em;
+		font-family: 'Lato', sans-serif;
+		margin-top:-55%;
+		margin-left: 10%;
+		position: absolute;
+		color: white;
+    }
+
+    @media #{$mq-bigScreen} {
+		font-size: 3em;
+		font-family: 'Lato', sans-serif;
+		margin-top:-20%;
+		margin-left: 37%;
+		position: absolute;
+		color: white;
+    }
+}
+
+#summary{
+	font-size: 1.3em;
+	font-family: 'Lato light', sans-serif;
+	margin-top:-15%;
+	margin-left: 29%;
+	position: absolute;
+	color: white;
+
+	@media #{$mq-mobile1} {
+		font-size: 1em;
+		font-family: 'Lato light', sans-serif;
+		margin-top:-40%;
+		margin-left: 5%;
+		position: absolute;
+		color: white;
+    }
+
+    @media #{$mq-mobile2} {
+        font-size: 1em;
+		font-family: 'Lato light', sans-serif;
+		margin-top:-40%;
+		margin-left: 5%;
+		position: absolute;
+		color: white;
+    }
+
+    @media #{$mq-mobile3} {
+        font-size: 1em;
+		font-family: 'Lato light', sans-serif;
+		margin-top:-40%;
+		margin-left: 5%;
+		position: absolute;
+		color: white;
+    }
+
+    @media #{$mq-bigScreen} {
+		font-size: 1.3em;
+		font-family: 'Lato light', sans-serif;
+		margin-top:-16.5%;
+		margin-left: 34%;
+		position: absolute;
+		color: white;
+    }
+
+}
+
+
+#twitter-icon{
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 37%;
+
+	@media #{$mq-mobile1} {
+		position: absolute;
+		margin-top: -17%;
+		margin-left: 30%;
+    }
+
+    @media #{$mq-mobile2} {
+        position: absolute;
+		margin-top: -17%;
+		margin-left: 30%;    }
+
+    @media #{$mq-mobile3} {
+        position: absolute;
+		margin-top: -17%;
+		margin-left: 30%;
+    }
+
+    @media #{$mq-bigScreen} {
+		position: absolute;
+		margin-top: -13%;
+		margin-left: 39%;
+    }
+}
+
+
+#linkedin-icon{
+	position: absolute;
+	margin-top: -10.4%;
+	margin-left: 45%;
+
+	@media #{$mq-mobile1} {
+		position: absolute;
+		margin-top: -17.7%;
+		margin-left: 50%;
+    }
+
+    @media #{$mq-mobile2} {
+        position: absolute;
+		margin-top: -17.7%;
+		margin-left: 50%;
+    }
+
+    @media #{$mq-mobile3} {
+        position: absolute;
+		margin-top: -17.7%;
+		margin-left: 50%;
+    }
+
+    @media #{$mq-bigScreen} {
+		position: absolute;
+		margin-top: -13.4%;
+		margin-left: 46%;
+    }
+}
+
+
+#github-icon{
+	position: absolute;
+	margin-top: -10%;
+	margin-left: 54%;
+
+	@media #{$mq-mobile1} {
+		position: absolute;
+		margin-top: -16.8%;
+		margin-left: 70%;
+    }
+
+    @media #{$mq-mobile2} {
+        position: absolute;
+		margin-top: -16.8%;
+		margin-left: 70%;
+    }
+
+    @media #{$mq-mobile3} {
+        position: absolute;
+		margin-top: -16.8%;
+		margin-left: 70%;
+    }
+
+    @media #{$mq-bigScreen} {
+		position: absolute;
+		margin-top: -13%;
+		margin-left: 54%;
+    }
+}
+
+#icons-box{
+	margin: auto;
+}
+

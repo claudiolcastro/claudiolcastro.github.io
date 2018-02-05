@@ -401,6 +401,11 @@ body {
   height: auto;
   border-radius: 50%; }
 
+.name {
+  font-size: 1.8em;
+  color: #ffffff;
+  margin-top: 15px; }
+
 .icons-box {
   display: flex;
   justify-content: space-around;

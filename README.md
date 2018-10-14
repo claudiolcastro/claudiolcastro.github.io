@@ -1,8 +1,4 @@
 # PersonalSite
 My Personal Web Site
 
-## Languages Used
-	Html 5
-	Css 3
-	Sass
-	Javascript
+You can find the code here https://github.com/claudiolcastro/personal-site
